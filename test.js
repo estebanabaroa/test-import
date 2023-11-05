@@ -1,5 +1,5 @@
-const main = require('./dist/node')
-const rpc = require('./dist/node/rpc')
+const main = require('.')
+const rpc = require('./rpc')
 
 main()
 rpc()

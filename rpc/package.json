@@ -1,10 +1,10 @@
 {
-  "name": "test-import",
+  "name": "test-import-rpc",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/node/index.js",
+  "main": "../dist/node/rpc/index.js",
   "browser": {
-      ".": "dist/browser/index.js"
+      ".": "../dist/browser/rpc/index.js"
   },
   "files": [
       "dist/"
